@@ -1,0 +1,16 @@
+17:07:16,326 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:40 - Chrome browser started.
+17:07:33,351 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:24 - Entered Username: namanagrawal
+17:07:33,506 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:30 - Entered Password: ******
+17:07:39,754 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:37 - Click on Login
+17:07:42,100 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:45 - Enter task number:  27793
+17:07:45,160 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:47 - Click on Jump
+17:07:45,529 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:56 - Got Summary text: 0027793: pragmaticmarketing - ELP - Intermittent issue when adding attendee
+17:07:45,913 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:45 - Enter task number:  27682
+17:07:50,241 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:47 - Click on Jump
+17:07:50,537 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:56 - Got Summary text: 0027682: SAVS-358 - Please investigate Zoho Accounting
+17:07:50,699 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:45 - Enter task number:  27577
+17:07:56,529 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:47 - Click on Jump
+17:07:56,764 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:56 - Got Summary text: 0027577: Feature ID: 6795 - wordpress site move
+17:07:58,217 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:158 - Sent mail to: naman.agrawal@arcscorp.net
+17:07:58,217 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:159 - Sent mail bcc naman.agrawal@arcscorp.net
+17:08:04,299 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:55 - Browser closed.
