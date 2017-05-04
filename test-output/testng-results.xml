@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="107942" started-at="2017-05-04T11:36:16Z" finished-at="2017-05-04T11:38:04Z">
+  <suite name="Suite" duration-ms="95234" started-at="2017-05-04T12:28:16Z" finished-at="2017-05-04T12:29:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="107942" started-at="2017-05-04T11:36:16Z" finished-at="2017-05-04T11:38:04Z">
+    <test name="Test" duration-ms="95234" started-at="2017-05-04T12:28:16Z" finished-at="2017-05-04T12:29:51Z">
       <class name="Cases.sendStatusEmail">
-        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:Cases.sendStatusEmail@2133c8f8]" name="start" is-config="true" duration-ms="60609" started-at="2017-05-04T17:06:16Z" finished-at="2017-05-04T17:07:16Z">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:Cases.sendStatusEmail@2133c8f8]" name="start" is-config="true" duration-ms="26625" started-at="2017-05-04T17:58:16Z" finished-at="2017-05-04T17:58:42Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="sendemail()[pri:0, instance:Cases.sendStatusEmail@2133c8f8]" name="sendemail" duration-ms="45566" started-at="2017-05-04T17:07:17Z" finished-at="2017-05-04T17:08:02Z">
+        <test-method status="PASS" signature="sendemail()[pri:0, instance:Cases.sendStatusEmail@2133c8f8]" name="sendemail" duration-ms="62274" started-at="2017-05-04T17:58:43Z" finished-at="2017-05-04T17:59:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendemail -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Cases.sendStatusEmail@2133c8f8]" name="end" is-config="true" duration-ms="1562" started-at="2017-05-04T17:08:02Z" finished-at="2017-05-04T17:08:04Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:Cases.sendStatusEmail@2133c8f8]" name="end" is-config="true" duration-ms="5475" started-at="2017-05-04T17:59:45Z" finished-at="2017-05-04T17:59:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
