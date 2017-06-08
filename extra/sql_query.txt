@@ -1,0 +1,7 @@
+****SQL Queries***********
+
+select nvc_password from  common_user where nvc_password LIKE 'test12345' COLLATE Latin1_General_CS_AS --To Case Sensitive Search
+
+
+lopa AS
+jack CS

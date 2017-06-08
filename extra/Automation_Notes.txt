@@ -1,0 +1,54 @@
+*********Mouse Hover Code**********
+
+Webelement logout = fd.findElement(by.id("logout"));
+Actions builder = new Actions(fd);
+Action mousehover = bulider.moveToelement(logout).build();
+mousehover.perform();
+
+*******Select the drop down values********
+
+Select sel = new Select(fd.findElement(bt.id("values")));
+sel.selectbyVisibleText("text");
+sel.selectbyIndex(0);
+sel.selectbyValue("Value");
+
+*******To read from the properties file*******
+
+ResourceBundle rb= ResourceBundle.getBundle("element.properties");
+fd.findElement(by.cssSelector(rb.getString("CSS_FILE")));
+
+******To take the ScreenShot*****************
+
+TakesScreenShot scrShot = ((TakesScreenShot) webdriver)
+File scrFile = scrShot.getScreenshotAs(OutputType.File);
+File destFile = new File("path");
+FileUtils.copyFile(scrFile, destFile);
+
+*********To generate the log file using Log4j**********
+
+Logger log = Logger.getLogger("devpinoyLogger");
+log.debug("This is a sample log.");
+
+******To read from the xls file using JXL*************
+
+File scrFile= new File("File Path");
+Workbook wb = Workbook.getWorkbook(scrFile);
+Sheet s1= wb.getSheet(1);
+int rows = s1.getRows();
+String link= s1.getCell(column, row);
+
+******To write in the xls file using JXL*************
+
+Workbook wb= Workbokk.getWorkbook(f);
+
+WritableWorkbook wwb = WritableWorkbook.CreateWorkBook(new File("filepath"), wb);
+WritableSheet sheet = wwb.getSheet(0);
+Label label = new Label(column, row, "text");
+label.addCell(label);
+copy.write();
+copy.close();
+
+
+
+
+
