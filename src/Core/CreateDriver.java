@@ -51,7 +51,7 @@ public class CreateDriver {
 	@AfterTest
 	public void end()
 	{
-		fd.quit();
+		fd.close();
 		log.debug("Browser closed.");
 	}
 
